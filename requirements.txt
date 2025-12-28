@@ -1,0 +1,5 @@
+python-dotenv>=1.0
+requests>=2.31
+matplotlib>=3.8
+ln-markets>=2.0.0
+
