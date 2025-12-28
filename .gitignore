@@ -1,0 +1,26 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/
+venv/
+
+# --- Secrets ---
+.env
+
+
+# --- Runtime data ---
+data/
+*.csv
+*.log
+
+# --- Backtest output ---
+*.png
+*.pdf
+
+# --- Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# --- OS ---
+.DS_Store
+
