@@ -293,11 +293,6 @@ def live_execute_market_only(
     return None
 
 
-def utc_day_key(ts: datetime) -> str:
-    # YYYY-MM-DD in UTC
-    return ts.astimezone(timezone.utc).date().isoformat()
-
-
 def append_trade_csv(path: str, row: dict) -> None:
     # schreibt header automatisch wenn Datei neu
     file_exists = os.path.exists(path)
