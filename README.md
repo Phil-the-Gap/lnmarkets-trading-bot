@@ -1,3 +1,12 @@
+This repository uses GitHub Actions to run tests on every push and pull request.
+
+
+### 2) CI Badge oben ins README (jetzt schon vorbereiten)
+Ganz oben, direkt unter dem Titel (`# ...`), kannst du schon mal **das Badge mit Platzhaltern** einfügen:
+
+```markdown
+![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)
+
 \# Algorithmic Trading Bot (Python)
 
 
@@ -14,11 +23,7 @@ This project was built as a learning and research system and is intended as a \*
 
 > The repository is safe to run locally in backtest or paper mode.
 
-
-
 ---
-
-
 
 \## Key Characteristics
 
@@ -248,10 +253,13 @@ BOT\_MODE=paper python bot.py
 
 \* PnL is computed using the capital model
 
-
-
 ---
 
+“Run tests: pytest”
+
+“Install: pip install -e .”
+
+---
 
 
 \## Live Trading (Explicit Opt-In)
