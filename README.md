@@ -11,6 +11,10 @@ The project architecture is intentionally modular:
 
 This allows the core trading logic to be reused or extended for other exchanges with minimal changes.
 
+> Note: This project is **not affiliated with or endorsed by LNMarkets**.
+> It is an independent technical project built for educational and portfolio purposes.
+
+
 ```markdown
 ![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)
 
