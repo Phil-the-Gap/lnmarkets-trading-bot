@@ -1,8 +1,15 @@
 This repository uses GitHub Actions to run tests on every push and pull request.
 
 
-### 2) CI Badge oben ins README (jetzt schon vorbereiten)
-Ganz oben, direkt unter dem Titel (`# ...`), kannst du schon mal **das Badge mit Platzhaltern** einfügen:
+## Exchange / Platform Context
+
+This trading system was originally designed and tested against the API of **LNMarkets.com**.
+
+The project architecture is intentionally modular:
+- Strategy logic, indicators, and risk management are **exchange-agnostic**
+- Execution and account interaction are isolated behind adapter-style components
+
+This allows the core trading logic to be reused or extended for other exchanges with minimal changes.
 
 ```markdown
 ![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)
